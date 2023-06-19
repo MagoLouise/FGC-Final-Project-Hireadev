@@ -1,0 +1,60 @@
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h4 {
+    font-family: quantico;
+}
+
+a.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color: coral;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: #fdd4d4;
+    color: rgb(0, 0, 0);
+}
+
+input[type=email] {
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: #fdd4d4;
+    color: rgb(0, 0, 0);
+}
+
+
+textarea {
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: #f8e6e6;
+    color: rgb(0, 0, 0);
+
+}
+
+button {
+    font-family: quantico;
+    background-color: #ffffff;
+    color: #FF6A8D;
+    padding: 10px 24px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+textarea:focus {
+    outline: none;
+}
